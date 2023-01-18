@@ -3,7 +3,7 @@ body {
     color: white; /* Le texte de la page sera blanc */
 }
 
-.test {
+.homepage {
     background-image: url('img/WallPaper.jpg');
     background-size: cover;
 }   
