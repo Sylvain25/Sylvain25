@@ -1,9 +1,54 @@
-body {
+body{
     background-color: black; /* Le fond de la page sera noir */
     color: white; /* Le texte de la page sera blanc */
+    margin: 0% auto;
+    background-image: url('img/WallPaper.jpg');
+    background-size: cover;
+}
+
+header img{
+    width: 10em;
+    background-color: blue;
+}
+
+section.top-page{
+    background-color: white; /* Le fond de la page sera noir */
+    color: black; /* Le texte de la page sera blanc */
+    display: flex;
+    align-items: center;
+    padding: 1em;
+
 }
 
 .homepage {
-    background-image: url('img/WallPaper.jpg');
-    background-size: cover;
+    margin: 5%;
 }   
+
+nav{
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    margin-left: 1em;
+    width: 90em;
+    
+}
+
+nav il{
+    margin: 1em;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+section.CV{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div{
+    background-color: rgba(74, 75, 75, 0.411);
+    padding: 1em;
+    margin : 1em;
+}
