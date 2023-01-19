@@ -24,7 +24,7 @@ section.top-page{
     margin: 5%;
 }   
 
-nav{
+nav.Nav{
     display: flex;
     justify-content:center;
     list-style: none;
